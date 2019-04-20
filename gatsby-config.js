@@ -10,14 +10,30 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-tslint',
     {
+      resolve: 'gatsby-transformer-json',
+      options: {
+        typeName: 'Json',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `data`,
+        path: `${__dirname}/src/data`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: [
+            'Source Sans Pro'
+          ],
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

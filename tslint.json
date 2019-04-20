@@ -7,13 +7,20 @@
   ],
   "rules": {
     "prettier": true,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": false,
     "jsx-alignment": true,
+    "jsx-wrap-multiline": true,
+    "interface-name": [true, "never-prefix"],
+    "ordered-imports": false,
+    "jsx-boolean-value": false,
     "quotemark": [
       true,
       "single",
       "avoid-escape",
       "avoid-template",
       "jsx-double"
-    ]
+    ],
+    "react/jsx-max-props-per-line": [1, { "when": "always" }]
   }
 }
