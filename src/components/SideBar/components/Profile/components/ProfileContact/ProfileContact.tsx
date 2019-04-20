@@ -1,9 +1,9 @@
 import * as React from 'react';
 import { Flex } from '@westhechiang/flex';
-import { Icon } from '../../../Icon';
 import { Text } from '@westhechiang/text';
 import { Link } from '@westhechiang/link';
-import { string } from 'prop-types';
+
+import { Icon } from '../../../../../Icon';
 
 export interface ProfileContactProps {
   contact: {

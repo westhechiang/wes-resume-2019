@@ -4,6 +4,7 @@ import { Layout } from '../components/Layout';
 import { Paper } from '../components/Paper';
 import { Seo } from '../components/Seo';
 import { SideBar } from '../components/SideBar';
+import { Main } from '../components/Main';
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +16,7 @@ const IndexPage = () => (
         height="100%"
       >
         <SideBar />
-        hello
+        <Main />
       </Flex>
     </Paper>
   </Layout>
