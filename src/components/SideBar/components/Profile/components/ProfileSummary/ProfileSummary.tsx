@@ -20,6 +20,7 @@ export const ProfileSummary = ({ highlight, details }: ProfileSummaryProps) => (
       mb={3}
       width={1}
       textAlign={['left', 'center', 'left']}
+      fontStyle="italic"
       fontFamily="body"
       fontSize={3}
       fontWeight={200}
