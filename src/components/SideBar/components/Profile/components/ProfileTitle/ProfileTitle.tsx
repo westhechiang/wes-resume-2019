@@ -7,11 +7,11 @@ export interface ProfileTitleProps {
 }
 
 export const ProfileTitle = ({ title }: ProfileTitleProps) => (
-  <Flex width={1} flexDirection="column" alignItems="center" py={2}>
+  <Flex width={1} flexDirection="column" alignItems="center" py={2} mb={3}>
     <Text
       fontFamily="body"
       m={0}
-      fontSize={3}
+      fontSize={5}
       color="white"
       textTransform="uppercase"
     >
