@@ -55,7 +55,7 @@
       "accomplishments": [
         "Set web engineering code and process standards; improved communication across NorCal and SoCal web engineering teams",
         "Improved release velocity while reducing number of bugs released to production; averaging 10 releases a week, up from ~3",
-        "Created 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses and alerts us if a breaking change is introduced",
+        "Created 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses by automatically testing endpoints whenever back end team pushes changes to github and alerts us if a breaking change is introduced",
         "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improving SEO and page performance"
       ]
     },
@@ -69,7 +69,7 @@
         "end": "12/2018"
       },
       "accomplishments": [
-        "Collaborated with iOS and Android engineering teams to improve release velocity; built out MVP features in webviews for Wag! mobile applications",
+        "Identified opportunities for web team to help iOS and Android teams to meet release expectations; built out MVP features in webviews for Wag! mobile applications",
         "Completely re-architected legacy web app, drastically improving stability and customer experience (0 downtime since re-architecture); migrated back end off of Firebase",
         "Built out entire suite of end-to-end tests with Cypress for legacy web app",
         "Built out entire CI pipeline to facilitate test automation; spins up a local instance of wagWebApp and wagAPI via Docker and runs entire suite of tests. Increased developer confidence and awareness by integrating pipeline results with Slack"
