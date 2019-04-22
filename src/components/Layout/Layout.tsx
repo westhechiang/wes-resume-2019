@@ -6,6 +6,7 @@ import { Background } from '../Background';
 import { Flex } from '@westhechiang/flex';
 
 import { Theme } from '../../Theme';
+import { Blurb } from '../Blurb';
 
 export const Layout = ({ children }) => (
   <ThemeProvider theme={Theme}>
@@ -22,6 +23,7 @@ export const Layout = ({ children }) => (
         >
           {children}
         </Flex>
+        <Blurb />
       </Background>
     </>
   </ThemeProvider>

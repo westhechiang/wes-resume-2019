@@ -6,7 +6,7 @@ export const Background = ({ children }) => (
   <Box
     flexDirection="column"
     bg="white"
-    backgroundImage={`url(${BackgroundImage})`}
+    backgroundImage={['none', 'none', `url(${BackgroundImage})`]}
     backgroundSize="300px"
     backgroundRepeat="repeat"
     width={1}

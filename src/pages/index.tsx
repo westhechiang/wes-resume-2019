@@ -5,7 +5,6 @@ import { Paper } from '../components/Paper';
 import { Seo } from '../components/Seo';
 import { SideBar } from '../components/SideBar';
 import { Main } from '../components/Main';
-import { Blurb } from '../components/Blurb';
 
 const IndexPage = () => (
   <Layout>
@@ -20,7 +19,6 @@ const IndexPage = () => (
         <Main />
       </Flex>
     </Paper>
-    <Blurb />
   </Layout>
 );
 

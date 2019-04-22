@@ -44,18 +44,27 @@ export const Blurb = () => {
 
   return (
     <Flex
-      w={1}
-      justify="center"
+      width={1}
+      maxWidth={['100%', '100%', 794]}
+      justifyContent="center"
       py={1}
       px={2}
-      mt={2}
+      m={2}
+      mx="auto"
       bg="teal"
       borderRadius={10}
     >
-      <Text m={0} color="white" fontFamily="body" fontSize={2}>
+      <Text
+        m={0}
+        color="white"
+        fontFamily="body"
+        fontSize={2}
+        textAlign="center"
+      >
         Made by Wes Chiang, built with {linkBuilder('gatsby')} (
         {linkBuilder('react')}), {linkBuilder('styledComponents')} and{' '}
-        {linkBuilder('styledSystem')}. Check out the code {linkBuilder('repo')}.
+        {linkBuilder('styledSystem')}. Check out the code{' '}
+        {linkBuilder('repo')}.
       </Text>
     </Flex>
   );
