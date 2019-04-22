@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Avatar } from '@westhechiang/avatar';
 import { Flex } from '@westhechiang/flex';
-import * as Image from './assets/profile_image.jpg';
+import * as Image from './assets/me.jpg';
 
 export const ProfileImage = () => (
   <Flex border={2} borderColor="white" borderRadius="50%">
