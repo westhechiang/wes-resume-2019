@@ -29,7 +29,7 @@ module.exports = {
       options: {
         google: {
           families: [
-            'Source Sans Pro'
+            'Open Sans'
           ],
         },
       },

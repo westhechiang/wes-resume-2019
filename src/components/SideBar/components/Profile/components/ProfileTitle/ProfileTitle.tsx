@@ -7,8 +7,14 @@ export interface ProfileTitleProps {
 }
 
 export const ProfileTitle = ({ title }: ProfileTitleProps) => (
-  <Flex w={1} flexDirection="column" alignItems="center" py={2}>
-    <Text fontFamily="body" m={0} fontSize={8} textTransform="uppercase">
+  <Flex width={1} flexDirection="column" alignItems="center" py={2}>
+    <Text
+      fontFamily="body"
+      m={0}
+      fontSize={3}
+      color="white"
+      textTransform="uppercase"
+    >
       {title}
     </Text>
   </Flex>

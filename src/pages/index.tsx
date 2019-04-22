@@ -11,7 +11,7 @@ const IndexPage = () => (
     <Seo title="Home" keywords={['gatsby', 'application', 'react']} />
     <Paper>
       <Flex
-        align="flex-start"
+        alignItems="flex-start"
         flexDirection={['column', 'column', 'row']}
         height="100%"
       >

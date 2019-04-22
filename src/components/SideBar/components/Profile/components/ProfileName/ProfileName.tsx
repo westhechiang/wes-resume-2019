@@ -8,11 +8,25 @@ export interface ProfileNameProps {
 }
 
 export const ProfileName = ({ nickName, lastName }: ProfileNameProps) => (
-  <Flex w={1} flexDirection="column" alignItems="center" py={2}>
-    <Text fontFamily="body" m={0} fontSize={8} textTransform="uppercase">
+  <Flex width={1} flexDirection="column" alignItems="center" py={2}>
+    <Text
+      fontFamily="body"
+      m={0}
+      fontSize={9}
+      color="white"
+      fontWeight="bold"
+      letterSpacing="7px"
+      textTransform="uppercase"
+    >
       {nickName}
     </Text>
-    <Text fontFamily="body" m={0} fontSize={6} textTransform="uppercase">
+    <Text
+      color="white"
+      fontFamily="body"
+      m={0}
+      fontSize={6}
+      textTransform="uppercase"
+    >
       {lastName}
     </Text>
   </Flex>

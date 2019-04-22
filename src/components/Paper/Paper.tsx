@@ -6,9 +6,9 @@ export const Paper = ({ children }) => (
     bg="white"
     boxShadow="rgba(0, 0, 0, 0.2) 0px 6px 14px;"
     flexDirection="column"
-    w={[1, 1, 794]}
+    width={[1, 1, 794]}
     maxWidth={['100%', '100%', 794]}
-    height={['100%', '100%', 1122]}
+    height={['100%']}
     position="relative"
     shadow
     hoverShadow

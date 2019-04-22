@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 
 const colors = {
   black: '#000000',
+  teal: '#3A857B',
   transparent: 'transparent',
   white: '#FFFFFF',
 };
@@ -74,7 +75,7 @@ const radii = [
 const lineHeights = [1, 1.125, 1.25, 1.5];
 
 const fonts = {
-  body: '"Source Sans Pro", Helvetica, Arial, sans-serif',
+  body: '"Open Sans", Helvetica, Arial, sans-serif',
 };
 
 export const Theme = {

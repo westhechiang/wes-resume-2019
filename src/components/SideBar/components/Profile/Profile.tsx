@@ -25,7 +25,7 @@ export const Profile = () => {
             email
             github
             linkedIn
-            location
+            city
           }
           summary {
             highlight

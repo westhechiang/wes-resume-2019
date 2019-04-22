@@ -13,18 +13,19 @@ export interface ProfileSkillsProps {
 }
 
 export const ProfileSkills = ({ skills }: ProfileSkillsProps) => (
-  <Flex width={1} pt={3} flexDirection="column" align="center">
+  <Flex width={1} pt={3} flexDirection="column" alignItems="center">
     {Object.keys(skills).map((category) => {
       return (
         <Flex
           key={category}
           width={1}
-          align={['flex-start', 'center', 'flex-start']}
+          alignItems={['flex-start', 'center', 'flex-start']}
           flexDirection="column"
         >
           <Text
             fontFamily="body"
             color="white"
+            fontSize={2}
             m={0}
             textTransform="capitalize"
           >
@@ -35,7 +36,7 @@ export const ProfileSkills = ({ skills }: ProfileSkillsProps) => (
             flexWrap="wrap"
             mb={2}
             flexShrink="0"
-            align={['flex-start', 'center', 'flex-start']}
+            alignItems={['flex-start', 'center', 'flex-start']}
           >
             {skills[category].map((item: string[]) => {
               return (
@@ -49,7 +50,13 @@ export const ProfileSkills = ({ skills }: ProfileSkillsProps) => (
                   mt={1}
                   mr={1}
                 >
-                  <Text m={0} fontFamily="body" color="white" fontSize={0}>
+                  <Text
+                    m={0}
+                    fontWeight="bold"
+                    fontFamily="body"
+                    color="white"
+                    fontSize={1}
+                  >
                     {item}
                   </Text>
                 </Box>

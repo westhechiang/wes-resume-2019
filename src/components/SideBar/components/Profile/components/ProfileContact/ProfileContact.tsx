@@ -10,20 +10,20 @@ export interface ProfileContactProps {
     email: string;
     github: string;
     linkedIn: string;
-    location: string;
+    city: string;
   };
 }
 
 export const ProfileContact = ({ contact }: ProfileContactProps) => (
-  <Flex flexDirection="column" width={1}>
+  <Flex flexDirection="column" width={[200, 1]} alignItems="center">
     {Object.entries(contact).map((entry) => {
       return (
         <Flex
           key={entry[0]}
-          w={1}
+          width={[1]}
           pb={2}
-          justifyContent="flex-start"
-          alignItems="flex-start"
+          justifyContent={['flex-start']}
+          alignItems={['center', 'flex-start']}
         >
           <Icon name={entry[0]} width={[30, 20]} mr={2} />
           <Flex
@@ -33,7 +33,8 @@ export const ProfileContact = ({ contact }: ProfileContactProps) => (
           >
             <Text
               fontFamily="body"
-              fontSize={1}
+              fontSize={0}
+              fontWeight="bold"
               color="white"
               m={0}
               textTransform="uppercase"

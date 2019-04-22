@@ -11,7 +11,7 @@ export interface ProfileSummaryProps {
 export const ProfileSummary = ({ highlight, details }: ProfileSummaryProps) => (
   <Flex
     flexDirection="column"
-    align={['flex-start', 'center', 'flex-start']}
+    alignItems={['flex-start', 'center', 'flex-start']}
     pt={2}
     width={1}
   >
@@ -21,11 +21,13 @@ export const ProfileSummary = ({ highlight, details }: ProfileSummaryProps) => (
       width={1}
       textAlign={['left', 'center', 'left']}
       fontFamily="body"
+      fontSize={3}
+      fontWeight={200}
       color="white"
     >
       {highlight}
     </Text>
-    <Text color="white" m={0} mb={1}>
+    <Text fontSize={2} fontFamily="body" color="white" m={0} mb={1}>
       I am:
     </Text>
     {details.map((detail, index, arr) => {
@@ -35,11 +37,12 @@ export const ProfileSummary = ({ highlight, details }: ProfileSummaryProps) => (
           width={1}
           flexDirection="column"
           flexShrink="0"
-          justify="center"
-          align="flex-start"
+          justifyContent="center"
+          alignItems="flex-start"
         >
           <Text
             width={1}
+            fontSize={3}
             fontFamily="body"
             m={0}
             textAlign={['left', 'center', 'left']}

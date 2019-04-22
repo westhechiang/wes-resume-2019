@@ -5,15 +5,15 @@
       "lastName": "Chiang",
       "nickName": "Wes"
     },
-    "title": "Sr. FullStack Engineer",
+    "title": "Lead Web Engineer",
     "contact": {
       "email": "westhechiang@gmail.com",
       "github": "https://github.com/westhechiang",
       "linkedIn": "https://bit.ly/2xOviUK",
-      "location": "Santa Monica, CA"
+      "city": "Santa Monica, CA"
     },
     "summary": {
-      "highlight": "I am a software developer who is passionate about building happy productive teams and scaleable & maintainable code",
+      "highlight": "I'm a leader who is passionate about building happy productive teams and writing scaleable & maintainable code",
       "details": [
         "Business-minded and know how to prioritize projects and tasks to maximize benefits to the organization",
         "A quick learner with experience in vetting and working with new technologies to find the best solutions to problems",
@@ -44,21 +44,23 @@
   },
   "experience": [
     {
+      "id": 0,
       "title": "Lead Web Engineer",
       "location": "West Hollywood, CA",
       "company": "Wag!",
       "duration": {
         "start": "12/2018",
-        "end": "current"
+        "end": "Current"
       },
       "accomplishments": [
         "Set web engineering code and process standards; improved communication across NorCal and SoCal web engineering teams",
         "Improved release velocity while reducing number of bugs released to production; averaging 10 releases a week, up from ~3",
         "Created 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses and alerts us if a breaking change is introduced",
-        "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improved SEO and page performance"
+        "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improving SEO and page performance"
       ]
     },
     {
+      "id": 1,
       "title": "Full Stack Engineer",
       "location": "West Hollywood, CA",
       "company": "Wag!",
@@ -74,6 +76,7 @@
       ]
     },
     {
+      "id": 2,
       "title": "Full Stack Engineer",
       "location": "Los Angeles, CA",
       "company": "RealtyMogul.com",
@@ -91,6 +94,7 @@
       ]
     },
     {
+      "id": 3,
       "title": "Salesforce Technical Architect",
       "location": "Los Angeles, CA",
       "company": "RealtyMogul.com",
@@ -103,9 +107,7 @@
         "Established Salesforce.com APEX and Visualforce development, and administration best practices to ensure long-term maintainability and ease of customization",
         "Resolved system-wide synchronization failures between Drupal and Salesforce and improved site performance and reliability by migrating all data synchronizations from synchronous to asynchronous",
         "Built custom GUI for Salesforce Administrators to better control, monitor, and manage the synchronization of data between Drupal and Salesforce",
-        "Built custom Round Robin lead distribution system which randomly and fairly assigned new leads across 4 sales teams and over 20 sales representatives; also implemented an administrative interface for Salesforce admins to add and modifying lead distribution rules without requiring dev resources or additional deployments",
-        "Built automations and data entry interfaces for Sales and Operations to complete legal compliance tasks more efficiently and accurately",
-        "Identified scaling issues for Operations team and built and maintained the 'Marketplace Operations Dashboard', a custom dashboard built with PHP and JQuery that enabled team members to better track and manage investment lifecycles by fetching and displaying relevant data stored between Salesforce and Drupal, and providing custom automated processes"
+        "Built custom Round Robin lead distribution system which randomly and fairly assigned new leads across 4 sales teams and over 20 sales representatives; also implemented an administrative interface for Salesforce admins to add and modifying lead distribution rules without requiring dev resources or additional deployments"
       ]
     }
   ],
