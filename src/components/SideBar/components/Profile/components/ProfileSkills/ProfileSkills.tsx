@@ -26,6 +26,7 @@ export const ProfileSkills = ({ skills }: ProfileSkillsProps) => (
             fontFamily="body"
             color="white"
             fontSize={2}
+            mt={2}
             m={0}
             textTransform="capitalize"
           >

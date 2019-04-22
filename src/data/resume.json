@@ -54,10 +54,11 @@
         "end": "Current"
       },
       "accomplishments": [
-        "Set web engineering code and process standards; improved communication across NorCal and SoCal web engineering teams",
+        "Led a team of 5 engineers; defined web engineering code and process standards; improved communication across NorCal and SoCal web engineering teams",
         "Improved release velocity while reducing number of bugs released to production; averaging 10 releases a week, up from ~3",
-        "Created 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses by automatically testing endpoints whenever back end team pushes changes to github and alerts us if a breaking change is introduced",
-        "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improving SEO and page performance"
+        "Created 'canary' test suite; ensures back end changes do not adversely affect endpoints the web team uses by automatically testing endpoints and alerting the team of breaking changes",
+        "Led the migration from legacy Django web application (wagwalking.com) to GatsbyJS; drastically improving SEO and page performance",
+        "Created Wag!'s first shared React Component library using React, Styled Components, Styled System, and Lerna with over 55 components and counting"
       ]
     },
     {
