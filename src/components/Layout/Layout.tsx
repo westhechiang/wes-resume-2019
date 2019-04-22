@@ -18,6 +18,7 @@ export const Layout = ({ children }) => (
           justifyContent="center"
           alignItems="center"
           boxSizing="border-box"
+          flexDirection="column"
         >
           {children}
         </Flex>
