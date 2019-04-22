@@ -30,6 +30,7 @@ export const WorkExperienceHeader = ({
             fontFamily="body"
             fontSize={2}
             textTransform="uppercase"
+            color="teal"
             fontWeight="bold"
             letterSpacing="3px"
             m={0}

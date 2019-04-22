@@ -49,7 +49,7 @@ export const WorkExperience = () => {
                     alignItems="center"
                     justifyContent="flex-start"
                     borderLeft={2}
-                    borderColor="blue.0"
+                    borderColor="teal"
                     mb={2}
                   >
                     <Text fontFamily="body" fontSize={2} m={0} pl={1}>
