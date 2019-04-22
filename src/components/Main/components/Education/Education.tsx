@@ -24,7 +24,14 @@ export const Education = () => {
     }
   `);
   return (
-    <Flex width={1} height="100%" flexDirection="column" pt={3} px={3}>
+    <Flex
+      width={1}
+      height="100%"
+      flexDirection="column"
+      pt={3}
+      px={3}
+      pb={[3, 3, 0]}
+    >
       <MainHeader icon="education" text="Education" />
       <Flex
         flexDirection={['column', 'row', 'row']}
