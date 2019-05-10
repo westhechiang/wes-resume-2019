@@ -11,7 +11,7 @@ export const MainHeader = ({ icon, text }) => (
         justifyContent="center"
         alignItems="center"
         border={1}
-        borderColor="teal"
+        borderColor="accentColor"
         borderRadius="50%"
         width={40}
         height={40}
@@ -25,13 +25,13 @@ export const MainHeader = ({ icon, text }) => (
         />
       </Flex>
     </Box>
-    <Box width={1} borderBottom={1} borderColor="teal" py={1}>
+    <Box width={1} borderBottom={1} borderColor="accentColor" py={1}>
       <Text
         m={0}
         fontFamily="body"
         textTransform="uppercase"
         fontWeight="bold"
-        color="teal"
+        color="accentColor"
       >
         {text}
       </Text>

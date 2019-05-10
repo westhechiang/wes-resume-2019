@@ -51,7 +51,7 @@ export const Blurb = () => {
       px={2}
       m={2}
       mx="auto"
-      bg="teal"
+      bg="accentColor"
       borderRadius={10}
     >
       <Text

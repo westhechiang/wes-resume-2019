@@ -12,8 +12,9 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 const colors = {
+  sidebarBackground: '#282D36',
+  accentColor: '#BF392A',
   black: '#000000',
-  teal: '#3A857B',
   transparent: 'transparent',
   white: '#FFFFFF',
 };

@@ -1,14 +1,14 @@
 import { Box } from '@westhechiang/box';
 import * as React from 'react';
-import BackgroundImage from './assets/pattern.png';
+import backgroundImage from './assets/backgroundImage.jpg';
 
 export const Background = ({ children }) => (
   <Box
     flexDirection="column"
     bg="white"
-    backgroundImage={['none', 'none', `url(${BackgroundImage})`]}
-    backgroundSize="300px"
-    backgroundRepeat="repeat"
+    backgroundImage={['none', 'none', `url(${backgroundImage})`]}
+    backgroundSize="cover"
+    backgroundRepeat="none"
     width={1}
     minHeight="100vh"
     justifyContent="flex-start"

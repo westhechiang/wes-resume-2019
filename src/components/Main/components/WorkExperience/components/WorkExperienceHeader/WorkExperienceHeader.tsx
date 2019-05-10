@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Image } from '@westhechiang/image';
 import { Flex } from '@westhechiang/flex';
 import { Text } from '@westhechiang/text';
 import { IconLabel } from './components/IconLabel';
@@ -30,7 +29,7 @@ export const WorkExperienceHeader = ({
             fontFamily="body"
             fontSize={2}
             textTransform="uppercase"
-            color="teal"
+            color="accentColor"
             fontWeight="bold"
             letterSpacing="3px"
             m={0}

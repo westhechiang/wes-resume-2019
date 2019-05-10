@@ -11,7 +11,7 @@ export const ProfileTitle = ({ title }: ProfileTitleProps) => (
     <Text
       fontFamily="body"
       m={0}
-      fontSize={5}
+      fontSize={3}
       color="white"
       textTransform="uppercase"
     >

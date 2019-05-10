@@ -6,7 +6,7 @@ export const SideBar = () => (
   <Flex
     height="100%"
     width={[1, 1, 0.3]}
-    bg="teal"
+    bg="sidebarBackground"
     flexDirection="column"
     alignItems="center"
     p={15}
