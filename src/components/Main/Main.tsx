@@ -9,9 +9,6 @@ export const Main = () => (
     width={1}
     height="100%"
     flexDirection="column"
-    backgroundImage={[`url(${MobileBackgroundImage})`, 'none']}
-    backgroundSize={100}
-    backgroundRepeat="repeat"
   >
     <WorkExperience />
     <Education />
