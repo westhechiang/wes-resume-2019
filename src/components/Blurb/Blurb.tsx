@@ -63,8 +63,7 @@ export const Blurb = () => {
       >
         Made by Wes Chiang, built with {linkBuilder('gatsby')} (
         {linkBuilder('react')}), {linkBuilder('styledComponents')} and{' '}
-        {linkBuilder('styledSystem')}. Check out the code{' '}
-        {linkBuilder('repo')}.
+        {linkBuilder('styledSystem')}. Check out the code {linkBuilder('repo')}.
       </Text>
     </Flex>
   );
