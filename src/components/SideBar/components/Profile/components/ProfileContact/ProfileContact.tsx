@@ -15,7 +15,7 @@ export interface ProfileContactProps {
 }
 
 export const ProfileContact = ({ contact }: ProfileContactProps) => (
-  <Flex flexDirection="column" width={[200, 1]} alignItems="center">
+  <Flex flexDirection="column" width={[200, 200, 1]} alignItems="center">
     {Object.entries(contact).map((entry) => {
       return (
         <Flex
